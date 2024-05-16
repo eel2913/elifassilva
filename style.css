@@ -1,0 +1,100 @@
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, Sans-Serif;
+    background-color: #e6e6e6;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+****layout*****
+*/
+
+#area-cabecalho {
+    background-color: #0d5ec9;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+#area-principal {
+    width: 100%;
+    max-width: 920px;
+    margin: 20px auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#area-bio {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#area-links {
+    width: 100%;
+    max-width: 600px;
+    background-color:#0d5ec9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#area-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#area-links li {
+    margin: 10px 0;
+}
+
+#area-links a {
+    text-decoration: none;
+    color: #0e0707;
+    padding: 8px 12px;
+    display: block;
+    text-align: center;
+    background-color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#area-links a:hover {
+    color: #f7b600;
+    background-color: #fff;
+    text-align: center;
+}
+
+#rodape {
+    text-align: center;
+    padding: 20px;
+    background: #CCC;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/*
+***** formataçōes em geral *****
+*/
+
+h1 {
+    color: white;
+    font-size: 2em;
+}
+
+h2 {
+    color: #3013e9;
+}
+
+p {
+    color: #050c08;
+}
+
